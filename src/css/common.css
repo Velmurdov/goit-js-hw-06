@@ -12,6 +12,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+li {
+  list-style: none;
+}
 
 input {
   padding: 8px;
@@ -22,3 +25,10 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display:flex;
+  gap: 60px; 
+}
+
+
